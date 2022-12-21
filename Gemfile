@@ -11,7 +11,7 @@ gem "mysql2"
 gem 'scenic'
 gem 'scenic-mysql_adapter'
 gem "activerecord-typedstore"
-gem 'sprockets-rails', '2.3.3'
+gem 'sprockets-rails', '3.0.0'
 
 # js
 gem "jquery-rails", "~> 4.3"
