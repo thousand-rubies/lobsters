@@ -32,7 +32,7 @@ gem "rqrcode"
 gem "pdf-reader"
 gem "nokogiri", ">= 1.13.6"
 gem "htmlentities"
-gem "commonmarker", ">= 0.23.4"
+gem "commonmarker", ">= 0.23.7"
 
 # perf
 gem 'flamegraph'
