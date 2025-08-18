@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 7.0.3.1"
+gem "rails", "~> 7.1.5.2"
 
 gem "mysql2"
 
@@ -8,9 +8,9 @@ gem "mysql2"
 # gem "pg"
 
 # rails
-gem 'scenic'
-gem 'scenic-mysql_adapter'
-gem "activerecord-typedstore"
+gem 'scenic', '>= 1.7.0'
+gem 'scenic-mysql_adapter', '>= 1.0.2'
+gem "activerecord-typedstore", ">= 1.5.0"
 gem 'sprockets-rails', '2.3.3'
 
 # js
@@ -50,7 +50,7 @@ gem 'rack-attack' # rate-limiting
 
 group :test, :development do
   gem 'capybara'
-  gem 'database_cleaner'
+  gem 'database_cleaner', '>= 2.0.2'
   gem "listen"
   gem 'rspec-rails', '~> 6.0.0.rc1'
   gem "factory_bot_rails"
