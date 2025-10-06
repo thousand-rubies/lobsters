@@ -54,9 +54,9 @@ group :test, :development do
   gem "listen"
   gem 'rspec-rails', '~> 6.0.0.rc1'
   gem "factory_bot_rails"
-  gem "rubocop", "0.81", require: false
-  gem "rubocop-rails", require: false
-  gem "rubocop-rspec", require: false
+  gem "rubocop", "1.66.0", require: false
+  gem "rubocop-rails", ">= 2.6.0", require: false
+  gem "rubocop-rspec", ">= 1.42.0", require: false
   gem "faker"
   gem "byebug"
   gem "rb-readline"
